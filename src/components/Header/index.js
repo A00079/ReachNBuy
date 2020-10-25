@@ -76,7 +76,7 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <div className={open? 'md:flex items-center block' : 'md:flex items-center hidden' }>
+                    <div className={open? 'md:flex items-center block' : 'md:flex items-center hidden' } style={{zIndex: '9999'}}>
                         <ul className="flex flex-col mt-2 md:flex-row md:mt-0 md:mx-1">
                             <li className="hover:text-white">
                                 <a href="#"
@@ -84,7 +84,7 @@ const Header = () => {
                             </li>
                             <li className="hoverable  hover:text-white">
                                 <a href="#" className="relative block text-sm text-white py-2 leading-5 mx-6 md:my-0">Men</a>
-                                <div className="p-6 mega-menu mb-16 sm:mb-0 shadow-xl" style={{backgroundColor: "transparent"}}>
+                                <div className="p-6 mega-menu mb-16 sm:mb-0 shadow-xl" style={{backgroundColor: "white"}}>
                                     <div className="container mt-40 lg:mt-20 md:mt-20 mx-auto w-full flex flex-wrap justify-between mx-2">
                                         <div className="w-full text-gray-900 mb-8">
                                             <h2 className="font-bold text-2xl">Main Hero Message for the menu section</h2>
